@@ -19,7 +19,6 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 
 html {
   scroll-behavior: smooth;
-  background: linear-gradient(90deg, #FFFFFF 50%, #222222 50%);
 }
 
 footer, header, nav, section, main {
@@ -74,6 +73,21 @@ input {
   font-size: 72px;
   color: white;
   line-height: 100px;
+}
+
+.about_title {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  font-size: 32px;
+}
+
+.about_desc {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 2rem;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 header {
@@ -172,11 +186,48 @@ header {
   background-image: url("../../media/img/kv-img.png");
   background-repeat: no-repeat;
   background-size: 65%;
+  background-position: center;
 }
 
 .hero_textContainer {
+  position: absolute;
   text-align: start;
-  padding: 157px 0 0 57%;
+  padding: 0 0 0 57%;
+  top: 20%;
+}
+
+.bg {
+  height: 800px;
+  background: linear-gradient(90deg, #FFFFFF 50%, #222222 50%);
+  margin-bottom: 120px;
+}
+
+.about {
+  height: 730px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../media/img/about-img.png");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+  padding: 120px 170px;
+}
+
+.about_text {
+  width: 590px;
+  background-color: white;
+  margin-left: 15%;
+  margin-top: 3.5%;
+  padding: 50px 30px;
+}
+
+.btn {
+  width: 160px;
+  height: 36px;
+  background: #000000;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

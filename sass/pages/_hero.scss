@@ -101,9 +101,18 @@ header {
     background-image: url("../../media/img/kv-img.png");
     background-repeat: no-repeat;
     background-size: 65%;
+    background-position: center;
   }
 
   .hero_textContainer {
+    position: absolute;
     text-align: start;
-    padding: 157px 0 0 57%;
+    padding: 0 0 0 57%;
+    top: 20%;
+  }
+
+  .bg {
+    height: 800px;
+    background: linear-gradient(90deg, #FFFFFF 50%, #222222 50%);
+    margin-bottom: 120px;
   }
