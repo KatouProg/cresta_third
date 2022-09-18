@@ -4,6 +4,13 @@
 $romaji: 'Montserrat', sans-serif;
 $japanese: 'Noto Sans JP', sans-serif;
 
+
+h2 {
+    font-family: $romaji;
+    color: #333333;
+    font-size: 32px;
+}
+
 // Hero
 
 .descText {
@@ -33,11 +40,6 @@ $japanese: 'Noto Sans JP', sans-serif;
 
 // About
 
-.about_title {
-    font-family: $romaji;
-    color: #333333;
-    font-size: 32px;
-}
 
 .about_desc {
     font-family: $japanese;
@@ -46,4 +48,15 @@ $japanese: 'Noto Sans JP', sans-serif;
     line-height: 2rem;
     margin-top: 30px;
     margin-bottom: 60px;
+}
+
+
+
+// Works
+
+.worksAndCulture_desc {
+    font-family: $japanese;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 27px;
 }

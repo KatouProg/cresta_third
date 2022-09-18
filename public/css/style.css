@@ -52,6 +52,12 @@ input {
   border-radius: 0;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  font-size: 32px;
+}
+
 .descText {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 20px;
@@ -75,12 +81,6 @@ input {
   line-height: 100px;
 }
 
-.about_title {
-  font-family: "Montserrat", sans-serif;
-  color: #333333;
-  font-size: 32px;
-}
-
 .about_desc {
   font-family: "Noto Sans JP", sans-serif;
   color: #333333;
@@ -88,6 +88,13 @@ input {
   line-height: 2rem;
   margin-top: 30px;
   margin-bottom: 60px;
+}
+
+.worksAndCulture_desc {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 27px;
 }
 
 header {
@@ -124,7 +131,7 @@ header {
 }
 
 .sidenav a:hover {
-  color: red;
+  color: gray;
 }
 
 .sidenav ul {
@@ -186,7 +193,6 @@ header {
   background-image: url("../../media/img/kv-img.png");
   background-repeat: no-repeat;
   background-size: 65%;
-  background-position: center;
 }
 
 .hero_textContainer {
@@ -203,14 +209,14 @@ header {
 }
 
 .about {
-  height: 730px;
+  height: 780px;
   justify-content: center;
   align-items: center;
   background-image: url("../../media/img/about-img.png");
   background-repeat: no-repeat;
   background-size: 65%;
   background-position: center;
-  padding: 120px 170px;
+  padding: 120px 170px 0 170px;
 }
 
 .about_text {
@@ -219,6 +225,19 @@ header {
   margin-left: 15%;
   margin-top: 3.5%;
   padding: 50px 30px;
+}
+
+.works {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  height: 765px;
+  padding: 120px 170px;
+  background: #F0F0F0;
+}
+
+.worksAndCulture_img {
+  margin: 27px 0;
 }
 
 .btn {
