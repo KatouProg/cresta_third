@@ -1,23 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+}
 
-
+.logo {
+    padding: 29px 0 0 58px;
+}
 
 // Burger Menu
-
-.burgerMenu {
-    @include tablet {
-        display: inherit;
-        padding: 1.5rem 1rem;
-    }
-}
 
 /* Sidenav menu */
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 520px;
     position: fixed;
     z-index: 1;
     top: 0;
-    right: -250px;
+    right: -600px;
     background-color: #222222;
     padding-top: 60px;
     transition: right 0.5s ease;
@@ -41,6 +41,7 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    line-height: 50px;
   }
   
   /* Active class */
@@ -51,24 +52,41 @@
   /* Close btn */
   .sidenav .close {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     position: absolute;
-    top: 0;
-    right: 25px;
+    top: 10px;
+    right: 4px;
     font-size: 36px;
     p {
-        font-size: 1.5rem;
-        padding: 0.5rem;
+        font-size: 10px;
+        padding: 0.7rem;
+        font-family: $romaji;
     }
   }
   
   /* Icône burger */
   .burger-icon span {
     display: block;
-    float: right;
-    clear: right;
-    width: 35px;
-    height: 5px;
+    width: 24px;
+    height: 2px;
     background-color: white;
     margin: 3px 0;
+  }
+
+  #openBtn {
+    display: flex;
+    text-decoration: none;
+    padding-top: 35px;
+    p {
+        padding: 5px 0 0 7px ;
+        text-decoration: none;
+        color: white;
+        font-family: $romaji;
+        font-size: 10px;
+    }
+  }
+
+  .sidebar_content {
+    text-align: center;
+    font-family: $romaji;
   }
