@@ -108,8 +108,16 @@ h2 {
 .topics_desc {
   font-family: "Noto Sans JP", sans-serif;
   color: #333333;
-  font-size: 16px;
+  font-size: 14px;
   padding: 9px 0;
+}
+
+.contact_desc {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 2rem;
+  margin: 58px 0;
 }
 
 header {
@@ -264,6 +272,14 @@ header {
 .topics_text {
   border-bottom: 1px solid #CECECE;
   margin-left: 50%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  height: 570px;
+  padding: 90px 170px;
+  background: #F2F2F2;
 }
 
 .btn {
