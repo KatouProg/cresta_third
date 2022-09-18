@@ -1,0 +1,21 @@
+{
+  "name": "cresta_third",
+  "version": "1.0.0",
+  "description": "Website created from a wireframe",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:public/css/style.css --style expanded",
+    "prefix": "postcss public/css/style.css --use autoprefixer -d public/css/prefixed/",
+    "prod": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed postcss ./public/css/style.css --use autoprefixer -d ./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatouProg/cresta_third.git"
+  },
+  "author": "Quentin BUXO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatouProg/cresta_third/issues"
+  },
+  "homepage": "https://github.com/KatouProg/cresta_third#readme"
+}
