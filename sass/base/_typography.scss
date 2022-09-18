@@ -3,3 +3,28 @@
 
 $romaji: 'Montserrat', sans-serif;
 $japanese: 'Noto Sans JP', sans-serif;
+
+// Hero
+
+.descText {
+    font-family: $japanese;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.brandName {
+    font-family: $romaji;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.heroTitle {
+    font-family: $romaji;
+    font-size: 72px;
+    color: white;
+    line-height: 100px;
+}

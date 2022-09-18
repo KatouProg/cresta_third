@@ -19,7 +19,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 
 html {
   scroll-behavior: smooth;
-  background-color: darkgray;
+  background: linear-gradient(90deg, #FFFFFF 50%, #222222 50%);
 }
 
 footer, header, nav, section, main {
@@ -51,6 +51,29 @@ table {
 input {
   -webkit-appearance: none;
   border-radius: 0;
+}
+
+.descText {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.brandName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.heroTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 72px;
+  color: white;
+  line-height: 100px;
 }
 
 header {
@@ -142,6 +165,18 @@ header {
 .sidebar_content {
   text-align: center;
   font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  height: 740px;
+  background-image: url("../../media/img/kv-img.png");
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
+
+.hero_textContainer {
+  text-align: start;
+  padding: 157px 0 0 57%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,6 +4,8 @@ header {
     padding-right: 60px;
 }
 
+// Header
+
 .logo {
     padding: 29px 0 0 58px;
 }
@@ -89,4 +91,19 @@ header {
   .sidebar_content {
     text-align: center;
     font-family: $romaji;
+  }
+
+
+  // Container
+
+  .hero {
+    height: 740px;
+    background-image: url("../../media/img/kv-img.png");
+    background-repeat: no-repeat;
+    background-size: 65%;
+  }
+
+  .hero_textContainer {
+    text-align: start;
+    padding: 157px 0 0 57%;
   }
