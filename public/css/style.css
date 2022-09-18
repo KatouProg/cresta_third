@@ -120,6 +120,15 @@ h2 {
   margin: 58px 0;
 }
 
+.footer_sign {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -280,6 +289,13 @@ header {
   height: 570px;
   padding: 90px 170px;
   background: #F2F2F2;
+}
+
+footer {
+  height: 50px;
+  background: #525252;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
