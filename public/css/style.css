@@ -97,6 +97,21 @@ h2 {
   margin-bottom: 27px;
 }
 
+.topics_date {
+  font-family: "Montserrat", sans-serif;
+  color: #CECECE;
+  font-size: 10px;
+  margin-top: 29px;
+  font-weight: bold;
+}
+
+.topics_desc {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  padding: 9px 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -240,6 +255,17 @@ header {
   margin: 27px 0;
 }
 
+.topics {
+  height: 470px;
+  padding: 56px 170px;
+  background: white;
+}
+
+.topics_text {
+  border-bottom: 1px solid #CECECE;
+  margin-left: 50%;
+}
+
 .btn {
   width: 160px;
   height: 36px;
@@ -247,6 +273,11 @@ header {
   color: white;
   font-size: 12px;
   font-weight: bold;
+}
+
+.topics_btn {
+  float: right;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
